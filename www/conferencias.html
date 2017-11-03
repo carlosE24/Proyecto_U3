@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/micss.css">
+
+
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="img/logo2.png" width="50" height="50"> ITTEPIC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Incio <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item  dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-users" aria-hidden="true"></i> Conferencias</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="conferencias.html#obligatorias"><i class="fa fa-plus-square" aria-hidden="true"></i> Obligatorias</a>
+                        <a class="dropdown-item" href="conferencias.html#optativas"><i class="fa fa-minus-square" aria-hidden="true"></i> Optativas</a>
+                    </div>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="galeria.html"><i class="fa fa-picture-o" aria-hidden="true"></i> Galería Imagenes</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="carrusel.html"><i class="fa fa-chevron-right" aria-hidden="true"></i> Inv. Carrusel</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="modal.html"><i class="fa fa-commenting-o" aria-hidden="true"></i></i> Inv. Ventana Modal</a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="acercade.html"><i class="fa fa-info" aria-hidden="true"></i> Acerca de.</a>
+
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+</div>
+<br><br><br>
+
+<a name="obligatorias" id="obligatorias"></a>
+<div class="container marketing">
+    <hr class="featurette-divider">
+    <h1 class="card-header featurette-heading text-center">Conferencias Obligatorias</h1>
+    <br>
+    <div class="row">
+
+        <div class="jumbotron center-block">
+            <img class="img" src="img/ia.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="featurette-heading">Inteligencia Artificial (IBM)</h2>
+            <p class="text-muted">Impartida por el M.C. Pablo Salazar Linares.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#iA">
+                Ver detalles &raquo;
+            </button>
+        </div>
+
+        <div class="jumbotron center-block">
+            <img class="img" src="img/tdw.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="featurette-heading">Tendencias en el Desarrollo Web (Oracle)</h2>
+            <p class="text-muted">Impartida por el Ing. Adam Carrasco.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tdw">
+                Ver detalles &raquo;
+            </button>
+        </div>
+
+        <div class="jumbotron center-block">
+            <img class="img" src="img/cc.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="featurette-heading">Herramientas y técnicas para incrementar la calidad del código (michelada.io)</h2>
+            <p class="text-muted">Impartida por el Ing. Eduardo Figarola Mota.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hticc">
+                Ver detalles &raquo;
+            </button>
+        </div>
+
+        <div class="jumbotron center-block">
+            <img class="img" src="img/iv.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="featurette-heading">Hacia dónde va la investigación en las Ciencias de la Información</h2>
+            <p class="text-muted">Impartida por la Dra. Xiomara Penélope Zaldivar Colado.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hdvici">
+                Ver detalles &raquo;
+            </button>
+        </div>
+
+        <div class="jumbotron center-block">
+            <img class="img-circle" src="img/ml.png" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="featurette-heading">Machine learning 101</h2>
+            <p class="text-muted">Impartida por el Ing. Edwin Efraín Jiménez Lepe.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ml101">
+                Ver detalles &raquo;
+            </button>
+        </div>
+
+    </div>
+    <br><br>
+
+    <a name="optativas" id="optativas"></a>
+
+    <br><br><br>
+
+    <div class="container marketing">
+        <hr class="featurette-divider">
+        <h1 class="card-header featurette-heading text-center">Conferencias Optativas</h1>
+        <br>
+        <div class="row">
+
+            <div class="jumbotron center-block">
+                <img class="img" src="img/crip.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2 class="featurette-heading text-center">Criptografía post-cuántica</h2>
+                <h4 class="card-title text-muted">Impartida por el Lic. Diego Armando Retana García.</h4>
+                <div class="col-sm-offset-5 col-sm-2 text-center">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cpc">
+                        Ver detalles &raquo;
+                    </button>
+            </div>
+            </div>
+
+            <div class="jumbotron center-block">
+                <img class="img" src="img/panel.png" alt="Generic placeholder image" width="140" height="140">
+                <h2 class="featurette-heading text-center">Panel de emprendedores</h2>
+                <<h4 class="card-title text-muted">Dirigida por la Mtra. Veronica Ramírez Jáuregui.</h4>
+                <div class="col-sm-offset-5 col-sm-2 text-center">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#peot">
+                        Ver detalles &raquo;
+                    </button>
+                </div>
+            </div>
+
+            <div class="jumbotron center-block">
+                <img class="img" src="img/dr.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2 class="featurette-heading text-center">Dispositivos robóticos y su integración en aplicaciones con realidad virtual</h2>
+                <h4 class="card-title text-muted">Impartida por el Dr. Ulises Zaldívar Colado.</h4>
+                <div class="col-sm-offset-5 col-sm-2 text-center">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#driarv">
+                        Ver detalles &raquo;
+                    </button>
+                </div>
+            </div>
+
+        </div>
+<br><br>
+
+
+    <!-- Modal Inteligencia Artificial (IBM) -->
+    <div class="modal fade" id="iA" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLongTitle">Inteligencia Artificial (IBM)</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="card-text">
+                        La inteligencia artificial esta en todas las areas. Existen herraminetas artificiales que son tendencias en el mundo de las empresas,
+                        estan ligadas a big data. Extracción, trasformacion y  carga, machine Learning y las redes neuronales son algunos
+                        terminos que van de la mano con la inteligencia artificial.
+                        segun Nils Jhon la inteligencia artificial tiene dos grandes pilares. los algoritmos geneticos y redes neuronales.
+                        En 2009 IBM creo una maquina llamada DeepBlue la cual le gano al mejor jugador de ajedrez en el mundo, por lo que
+                        el jugador dijo "la maquina nunca se canso yo si".
+                        Watson es un sistema de computacion cognitiva que aprende e interactua naturalmente con la gente, fueron necesario
+                        cuatro años para entrenar a watson en el area de salud.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Tendencias en el Desarrollo Web (Oracle) -->
+    <div class="modal fade" id="tdw" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLongTitle">Tendencias en el Desarrollo Web (Oracle)</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="card-text">
+                        Tecnologías para el desarrollo web algunas son html, css, js.<br>
+                        Tendencia: progressive web: app, Back- end: ruby, django, larabel, Responsive desig, preprocesadores css: lass,sass, styles, ract components,angular js,
+                        funtional testing y editor de texto: atom, sublime text, visual estudio<br>
+                        Tips: elegir el lenguaje de programación, estructuras de datos, entrenar habilidades, frameworks, git y git hub,
+                        agarrar experiencia desde el inicio, mejorar los sistemas, leer y English.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Herramientas y técnicas para incrementar la calidad del código (michelada.io) -->
+    <div class="modal fade" id="hticc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLongTitle">Herramientas y técnicas para incrementar la calidad del código (michelada.io)</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <<p class="card-text">
+                    Un software de calidad.<br>Debe cumplir con su propósito, informe de problemas, tiene pruebas, el código debe ser entendible,
+                    surge un estilo de codigo desde el inicio, utiliza un flujo de colaboracion, implementacion correcta de patrones, se puede utilizar intuitivamente.<br>
+                    Manejo e informes de errrores.<br> Si el error es por culpa del usuario es importante hacerle saber la causa. Si el error  no fue culpa del usuario se vale no entrar en detalles tecnicos.
+                    Sistema de monitores de errores: bugsnag, entry, etc.<br>
+                    Pruebas.<br> Pruebas unitarias.Herramientas: mintest, Rspec, jasmine, moncha<br>
+                    Pruebas de integracion. Herramientas: mintest, Rspec, jasmine, moncha<br>
+                    pruebas funcionales. Herramientas: capybara, cucumber, protactor, nightwatch, cypress.
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Hacia dónde va la investigación en las Ciencias de la Información -->
+    <div class="modal fade" id="hdvici" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLongTitle">Hacia dónde va la investigación en las Ciencias de la Información</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="card-text">
+                        Posgrado de calidad en mexico. <br>
+                        Categorias.<br>
+                        1. Estructuras y personal academico<br>
+                        2. estudiante<br>
+                        3. infraestructura del programa<br>
+                        4. resultados y vinculacion<br>
+                        Existen 2155 programas de posgrado de calidad  en mexico y el area con mas demanda es el area de ciencias sociales.
+                        En nayarit existen 12 programas de posgrado de calidad en los que encontramos maestrias y doctorados.
+                        Progrado en ciencias de la informacion. Programa integral maestrias y doctorados
+                        lineas de generacion y aplicación del conocimiento: computacion y sistemas y gramatica.
+                        Para poder realizar programas de posgrado en el CONACIT cuenta con becas de financiamiento  en los que a los estudiantes de maestria se les paga $10,500 y  doctorado $13,500.
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Machine learning 101 -->
+    <div class="modal fade" id="ml101" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLongTitle">Machine learning 101</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                     <p><strong>¿Qué es Machine Learning?</strong><br>Es el subcampo de las ciencias de la computación y una rama de la inteligencia artificial cuyo objetivo es desarrollar técnicas que permitan a las computadoras aprender. De forma más concreta, se trata de crear programas capaces de generalizar comportamientos a partir de una información suministrada en forma de ejemplos.</p>
+                    <p>El aprendizaje automático tiene como resultado un modelo para resolver una tarea dada. Entre los modelos se distinguen</p>
+                    <ul>
+                        <li><strong>Los modelos geométricos</strong>, construidos en el espacio de instancias y que pueden tener una, dos o múltiples dimensiones.</li>
+                        <li><strong>Los modelos probabilísticos</strong>, que intentan determinar la distribución de probabilidades descriptora de la función que enlaza a los valores de las características con valores determinados.</li>
+                        <li><strong>Los modelos lógicos</strong>, que transforman y expresan las probabilidades en reglas organizadas en forma de árboles de decisión.</li>
+                    </ul>
+                    <p><strong>¿Qué es aprendizaje?</strong></p>
+                    <p>Es el proceso a través del cual se modifican y adquieren habilidades, destrezas, conocimientos, conductas o valores como resultado del estudio, la experiencia, la instrucción, el razonamiento y la observación.</p>
+                    <br>
+                    <p>Adémas el conferenciasta proporcionó recomendaciones para tomar cursos en línea que hablan específicamente de Machine Learning y nos ayudaran a conocer más el aprendizaje automático para de esta manera poder capacitarnos en caso de querer desarrollar software de este tipo estos cursos son:</p>
+                    <ul>
+                        <li>Cousera</li>
+                        <li>Udacity</li>
+                        <li>eDx</li>
+                    </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- ************************** optativas *********************** -->
+    <!-- Modal Criptografía post-cuántica -->
+    <div class="modal fade" id="cpc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Criptografía post-cuántica</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="card-text">
+                        La criptografía es la ciencia que desarrolla técnicas matemáticas para cifrar la información.<br>
+                        Tipos de criptografía.
+                        1. Simétrica: Los sistemas de cifrado simétrico son aquellos que utilizan la misma clave para cifrar y descrifrar un documento. El principal problema de seguridad reside en el intercambio de claves entre el emisor y el receptor ya que ambos deben usar la misma clave.<br>
+                        2. asimétrica:También son llamados sistemas de cifrado de clave pública. Este sistema de cifrado usa dos claves diferentes. Una es la clave pública y se puede enviar a cualquier persona y otra que se llama clave privada, que debe guardarse para que nadie tenga acceso a ella. Para enviar un mensaje, el remitente usa la clave pública del destinatario para cifrar el mensaje. Una vez que lo ha cifrado, solamente con la clave privada del destinatario se puede descifrar.<br>
+                        RSA. Función de una vía , curva cuadrática, curva elíptica, latice. Criptografía mecánica. Cifrado basado en identidad
+                    </p>
+                    <p>Algoritmos post-cuánticos</p>
+                    <p>Se llama post-cuántico si no existe un algoritmo que aproveche la computadora cuántica para romperlo.</p>
+                    <ul>
+                        <li>Criptografía basada en códigos</li>
+                        <li>Criptografía basada en Lattices</li>
+                        <li>Criptografía basada en funciones Hash.</li>
+                        <li>Criptografía basada en sistemas de ecuaciones de varias variables.</li>
+                    </ul>
+                    <p>RSA fue diseñado a finales de los años 70´s es un sistema criptográfico de clave pública. Es el primer y más utilizado algoritmo de este tipo y es válido tanto para cifrar como para firmar digitalmente.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Panel de emprendedores, ¡Orgullo Tigre! -->
+    <div class="modal fade" id="peot" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLongTitle">Panel de emprendedores, ¡Orgullo Tigre!</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>El panel de emprendedores ¡Orgullo Tigre! Estuvo a cargo de la Mtra. Verónica Ramírez Jáuregui quien fungio como el papel de moderadora, estuvieron presentes ex alumnos egresados del Instituto Tecnológico de Tepic y que hoy cuentan con su propia empresa, tales como la Ing. Obdulia, el Ing. Gerardo, Ing. Juan Manuel, y el Ing. Nicolás, afirmaron haber sido la primer generación egresada de la carrera Ingeniería en Sistemas Computacionales, el tema principal fue el emprendimiento, para lo cual estas fueron algunas de las preguntas realizadas:</p>
+                    <ol>
+                        <li><strong>¿Cuáles son las reglas para ser un emprendedor exitoso?</strong></li>
+                        <p>Ing. Gerardo: Menciona que no hay una serie de reglas para poder ser un emprendedor, dice que lo importante es guiarte por lo que a ti te gusta y te hace feliz.</p>
+                        <p>Ing. Francisco: Menciona que depende del cliente.</p>
+                        <li><strong>¿Qué tan importante es un segundo idioma?</strong></li>
+                        <p>Ing. Obdulia: Es primordial para lo que se vive en la actualidad, existe una mejor interacción por lo que se considera un mundo más exigente.</p>
+                        <p>Ing. Nicolás: Dependerá de la idea y el mercado en el que te interese. Considera el inglés un idioma líder y es en USA, India y China los más grandes negocios hablantes de este idioma.</p>
+                        <li><strong>¿Qué es lo más importante?, ¿Emprender o emplearse?</strong></li>
+                        <p>Ing. Juan Manuel: Considera que debería emprender desde egresado por las ideas que se tienen, en caso de fracasar considera buscar emplearse, pero solo por un tiempo y después volver a intentar levantarse como emprendedor.</p>
+                        <p>Ing. Gerardo: Lo considera que la experiencia laboral lo impulso a querer emprender. Inicio en los alimentos y de ahí partió para hacer negocios.</p>
+                        <li><strong>¿Qué tan difícil fue para usted ser empresario?</strong></li>
+                        <p>Ing. Obdulia: Si fue difícil, es algo en lo que te encuentras con tropiezos y obstáculos, pero es necesario no rendirse e ir buscando tu objetivo. “Es preocupante pero emocionante”, enfocarte en tu pasión y lograrlo.</p>
+                        <p>Ing. Nicolás: Lo considera algo muy complicado, y dependerá de la manera de pensar de cada uno.</p>
+                        <li><strong>¿Crees que existe oportunidad de emprendimiento en Nayarit para las carreras de ISC e ITIC´s?</strong></li>
+                        <p>Ing. Juan Manuel: Considera que no es obstáculo la carrera para poder emprender un negocio, y dice no ser necesario el emprender con un negocio exclusivamente del área en que te desenvuelves.</p>
+                    </ol>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Dispositivos robóticos y su integración en aplicaciones con realidad virtual -->
+    <div class="modal fade" id="driarv" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLongTitle">Dispositivos robóticos y su integración en aplicaciones con realidad virtual</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="card-text">
+                        Definición de realidad virtual. Representación simétrica de la realidad, representación 3D de la realidad.
+                        Ambiente simétrico tridimensional que permite  enviar información hacia el mundo real: visual, recibir información del mundo real y la interacción con usuarios del mundo real.<br>
+                        Interacción con objetos. Ambiente sintáctico tridimensional que permite: enviar información hacia el mundo realidad, recibir información y interacción con los usuarios.<br>
+                        3D. medidas de los objetos, mallas poligonales y objetos sólidos.<br>
+
+                        Interacción con objetos: teclado, ratón, jaystick,kinect, interfaz óptica. Cybergrasp: permite la sensación de contacto entre la yema de los dedos. Cyberface: permite la sensación  en la palma del usuario del peso de los objetos.<br>
+                        1. Manipular objetos. Detección de objetos<br>
+                        2. definir algoritmo de selección.<br>
+                        3. Agarrar objeto<br>
+                        4. ambiente virtual.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- // -->
+<footer class="footer">
+    <div class="container">
+        <div class="text-center center-block">
+            <h5><strong>JORNADA ACADÉMICA DE COMPUTACIÓN 2017</strong></h5>
+            <h6>AV. TECNOLÓGICO # 2595, COL. LAGOS DEL COUNTRY. TEPIC, NAYARIT. MÉXICO. C.P. 63175.</h6>
+            <a href="https://www.facebook.com/JornadaAcademica2017/"><i class="fa fa-facebook-square fa-3x social"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="js/mijs.js"></script>
+
+</body>
+</html>
+
+
+
